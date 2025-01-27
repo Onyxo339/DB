@@ -1,5 +1,3 @@
-USE `products` ;
-
 SELECT 
     v.name AS vendor_name, 
     COUNT(p.id) AS product_count
