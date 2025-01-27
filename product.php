@@ -36,7 +36,7 @@ class DB {
 
 class raNa {
     public static function chars($length = 10) {
-        $characters = "utf8";
+        $characters = "abcdefghijklmnopqrstuvwxyz";
         return substr(str_shuffle(str_repeat($characters, $length)), 0, rand(1, $length));
     }
 }
